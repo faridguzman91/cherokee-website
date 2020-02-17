@@ -1,0 +1,45 @@
+/*
+
+Palette - Cherokee hoofdkleuren
+
+
+kleurenpalet header - section 1
+
+licht donker: rgba(71, 122, 184, 1)
+Donker-blauw: rgba(31, 34, 66, 1)
+Donker-blauwgrijs: rgba(30, 33, 67, 1)
+Donker-blauwgrijs 2: rgba(51, 51, 51, 1)
+grijs: rgba(92, 92, 92, 1)
+Zwart: rgba(0, 0, 0, 1)
+
+kleurenpalet header - section 2
+
+Donker rood: rgba(110, 7, 43, 1)
+donker rood- bruin: rgba(107, 0, 0, 1)
+donker rood- bruin 2: rgba(107, 0, 0, 1)
+donker bruin: rgba(103, 40, 40, 1)
+rood: rgba(184, 71, 71, 1)
+
+zwart
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: rgba(92, 92, 92, 1)
+}
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(71, 122, 184, 0.678), rgba(0, 0, 0, 0.637)), url(../img/zach-lezniewicz-Pfi_zhLmBr0-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+}
